@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* video style */
+.bg {
+  /* aspect-ratio: scale; */
+
+  z-index: -1;
+  max-height: 100vh;
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#lnd {
+  /* background-image: url(./images/bg2.gif); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  font-size: 60px;
+  text-shadow: 2px 3px 2px wheat;
+  color: aqua;
+  /* font-family: "My Soul", cursive; */
+}
+/* about style */
+#about {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(49, 53, 240, 0.232);
+  border-color: rgba(137, 43, 226);
+  gap: 30px;
+  padding: 5% 10%;
+}
+#about p {
+  padding-right: 400px;
+  color: aqua;
+  font-size: medium;
+}
+#about h2 {
+  padding-top: 10%;
+  border-bottom: solid;
+  color: rgb(96, 194, 221);
+  width: fit-content;
+  font-size: 60px;
+}
+#portait {
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+/* skills */
+#skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: aqua;
+}
